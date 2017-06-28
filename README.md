@@ -1,12 +1,12 @@
 # Installation #
 
-Clone the environment (kpn) from file using conda
+Clone the environment (kpn) from file environment.yml using conda
 
 ```shell
 conda env create -f environment.yml
 ```
 
-Activate the new environment (kpn)
+Activate the environment (kpn)
 ```shell
 source activate kpn
 ```
