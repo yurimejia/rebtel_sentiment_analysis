@@ -12,13 +12,15 @@ $(document).ready(function () {
         //json object to sent to the authentication url
         data: JSON.stringify({ text: info.text }),
         success: function (response) {
-          sentiment = response.sentiment
+            sentiment_custom = response.sentiment_cl
+            sentiment_textblob = response.sentiment_textblob
         }
     });
     // updating the status
     document.getElementById('status').innerText = "Sentiment Analysis done!";
     document.getElementById('review_text').innerText = info.text;
-    document.getElementById('sentiment').innerText = "Sentiment: " + sentiment;
+    document.getElementById('sentiment_custom').innerText = "Rebtel custom sentiment: " + sentiment_custom;
+    document.getElementById('sentiment_textblob').innerText = "TextBlob sentiment: " + sentiment_textblob;
     if( "rating" in info) {
         document.getElementById('rating').innerText = "Rating: " + info.rating + " star(s)";
     };

@@ -24,8 +24,7 @@ def compute_sentiment(text):
 class Sentiment(Resource):
 
     def options(self):
-        pass
-       
+        pass       
 
     def post(self):
         parser = reqparse.RequestParser()
