@@ -39,6 +39,7 @@ which returns the json output
 ```json
 {
 	"text": "Rebtel is awesome, best service ever.", 
-	"sentiment": 1.0
+	"sentiment_textblob": 1.0,
+	"sentiment_cl": 0.97
 }
 ```
