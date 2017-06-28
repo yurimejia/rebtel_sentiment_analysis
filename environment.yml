@@ -1,0 +1,108 @@
+name: kpn
+channels:
+- defaults
+dependencies:
+- alabaster=0.7.9=py34_0
+- astroid=1.4.9=py34_0
+- babel=2.3.4=py34_0
+- backports_abc=0.5=py34_0
+- beautifulsoup4=4.6.0=py34_0
+- chardet=3.0.3=py34_0
+- cycler=0.10.0=py34_0
+- dbus=1.10.10=0
+- decorator=4.0.11=py34_0
+- docutils=0.13.1=py34_0
+- entrypoints=0.2.2=py34_0
+- expat=2.1.0=0
+- fontconfig=2.12.1=3
+- freetype=2.5.5=2
+- glib=2.50.2=1
+- gst-plugins-base=1.8.0=0
+- gstreamer=1.8.0=0
+- icu=54.1=0
+- imagesize=0.7.1=py34_0
+- ipykernel=4.5.2=py34_0
+- ipython=5.1.0=py34_0
+- ipython_genutils=0.1.0=py34_0
+- isort=4.2.5=py34_0
+- jedi=0.9.0=py34_1
+- jinja2=2.9.6=py34_0
+- jpeg=9b=0
+- jsonschema=2.5.1=py34_0
+- jupyter_client=4.4.0=py34_0
+- jupyter_core=4.2.1=py34_0
+- lazy-object-proxy=1.2.2=py34_0
+- libffi=3.2.1=1
+- libgcc=5.2.0=0
+- libgfortran=3.0.0=1
+- libiconv=1.14=0
+- libpng=1.6.27=0
+- libsodium=1.0.10=0
+- libxcb=1.12=1
+- libxml2=2.9.4=0
+- markupsafe=0.23=py34_2
+- matplotlib=2.0.0=np111py34_0
+- mistune=0.7.3=py34_0
+- mkl=2017.0.1=0
+- nbconvert=4.2.0=py34_0
+- nbformat=4.2.0=py34_0
+- nltk=3.2.2=py34_0
+- numpy=1.11.3=py34_0
+- numpydoc=0.6.0=py34_0
+- openssl=1.0.2l=0
+- pandas=0.19.2=np111py34_1
+- path.py=10.0=py34_0
+- pcre=8.39=1
+- pep8=1.7.0=py34_0
+- pexpect=4.2.1=py34_0
+- pickleshare=0.7.4=py34_0
+- pip=9.0.1=py34_1
+- prompt_toolkit=1.0.9=py34_0
+- psutil=5.0.1=py34_0
+- ptyprocess=0.5.1=py34_0
+- pyflakes=1.5.0=py34_0
+- pygments=2.1.3=py34_0
+- pylint=1.6.4=py34_1
+- pyparsing=2.1.4=py34_0
+- pyqt=5.6.0=py34_2
+- python=3.4.5=0
+- python-dateutil=2.6.0=py34_0
+- pytz=2017.2=py34_0
+- pyzmq=16.0.2=py34_0
+- qt=5.6.2=4
+- qtawesome=0.4.3=py34_0
+- qtconsole=4.2.1=py34_1
+- qtpy=1.2.1=py34_0
+- readline=6.2=2
+- requests=2.14.2=py34_0
+- rope=0.9.4=py34_1
+- scikit-learn=0.18.1=np111py34_1
+- scipy=0.18.1=np111py34_1
+- seaborn=0.7.1=py34_0
+- setuptools=27.2.0=py34_0
+- simplegeneric=0.8.1=py34_1
+- sip=4.18=py34_0
+- six=1.10.0=py34_0
+- snowballstemmer=1.2.1=py34_0
+- sphinx=1.5.1=py34_0
+- spyder=3.1.2=py34_0
+- sqlite=3.13.0=0
+- tk=8.5.18=0
+- tornado=4.4.2=py34_0
+- traitlets=4.3.1=py34_0
+- wcwidth=0.1.7=py34_0
+- wheel=0.29.0=py34_0
+- wrapt=1.10.8=py34_0
+- xz=5.2.2=1
+- zeromq=4.1.5=0
+- zlib=1.2.8=3
+- pip:
+  - backports-abc==0.5
+  - ipython-genutils==0.1.0
+  - jupyter-client==4.4.0
+  - jupyter-core==4.2.1
+  - prompt-toolkit==1.0.9
+  - rope-py3k==0.9.4.post1
+  - textblob==0.12.0
+prefix: /home/yuri/anaconda2/envs/kpn
+
