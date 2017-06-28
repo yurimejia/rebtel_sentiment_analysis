@@ -18,7 +18,7 @@ jupyter notebook
 
 # Notebooks #
 * Scrape reviews from website https://www.trustpilot.com/review/www.rebtel.com
-	* scrape_data.ipynb
+	* scrape_reviews.ipynb
 
 * Explore (raw data) reviews
 	* explore_data.ipynb
