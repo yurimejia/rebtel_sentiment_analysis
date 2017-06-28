@@ -15,22 +15,30 @@ export FLASK_APP=sentiment_server.py
 flask run
 ```
 
-GET request
-
-```html
-127.0.0.1:5000/api/v1/pokemon
-```
-
 
 POST request (in the request header set `content-type: application/json`)
 ```html
-127.0.0.1:5000/api/v1/pokemon
+127.0.0.1:5000/api/v1/sentiment
 ```
 
 with request body
 ```json
 {
-	"name": "Yuri",
-	"number": 34
+	"text": "Rebtel is awesome, best service ever."	
+}
+```
+
+For example, from shell you can execute
+```shell
+curl -H "Content-Type: application/json" -X POST -d '{"text": "Rebtel is awesome, best service ever."}' http://localhost:5000/api/v1/sentiment
+
+```
+
+which returns the json output
+
+```json
+{
+	"text": "Rebtel is awesome, best service ever.", 
+	"sentiment": 1.0
 }
 ```
