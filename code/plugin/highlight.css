@@ -1,0 +1,5 @@
+.hover_highlight {
+  background-color: #c9ffe5 !important;
+  outline: 1px solid #66cdaa !important;
+  overflow: auto !important;
+}

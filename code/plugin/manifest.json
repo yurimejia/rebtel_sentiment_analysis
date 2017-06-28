@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+
+  "name": "Sentiment Analysis",
+  "description": "This extension shows the results for a sentiment analysis of Rebtel reviews and tweets.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "img/icon_default.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "img/icon_16x16.png"
+  },
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "<all_urls>"
+  ],
+  "background": { 
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [{
+    "matches": ["https://www.trustpilot.com/review/www.rebtel.com*"],
+    "css": ["highlight.css"],
+    "js": ["jquery-1.12.4.min.js", "content_trustpilot.js", "popup.js"],
+    "run_at": "document_end"
+  },{
+    "matches": ["https://twitter.com/*"],
+    "css": ["highlight.css"],
+    "js": ["jquery-1.12.4.min.js", "content_twitter.js", "popup.js"],
+    "run_at": "document_end"
+  }
+]
+}

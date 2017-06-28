@@ -23,12 +23,19 @@ jupyter notebook
 * Explore (raw data) reviews
 	* explore_data.ipynb
 
-* Do sentiment analysis 
+* Sentiment analysis 
 	* Using TextBlob: sentiment_analysis_textblob.ipynb
-	* Model: sentiment_analysis_model.ipynb
+	* Using stars to create model: sentiment_analysis_model.ipynb
 
 * Prepare data for ingestion in InfluxDB
 	* ingest_influxdb.ipynb
 
+# Code #
+* Flask: Create API endpoint
 
+```shell
+export FLASK_APP=sentiment_server.py
+flask run
+```
 
+* Plugin: Browser plug in to display sentiment of review.

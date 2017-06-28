@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="jquery-1.12.4.min.js"></script>
+    <script src="popup.js"></script>
+    <title>Review Sentiment Analysis</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+      }
+      .top * {
+        vertical-align: top;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="status">Requesting a review sentiment analysis</div>
+    <br>
+    <div id="rating">Rating: NA</div>
+    <br>
+    <div class="top">
+      <label for="textarea">Text</label>
+        <textarea class="scrollabletextbox" name="note" cols="100" rows="4" id="review_text" style="overflow-y:scroll"></textarea>
+    </div>
+    <br>
+    <div id="sentiment">Sentiment</div>
+  </body>
+</html>

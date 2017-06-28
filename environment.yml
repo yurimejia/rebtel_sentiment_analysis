@@ -1,7 +1,14 @@
 name: kpn
 channels:
+- conda-forge
 - defaults
 dependencies:
+- aniso8601=1.1.0=py34_0
+- click=6.6=py34_0
+- flask=0.11.1=py34_0
+- flask-restful=0.3.5=py34_0
+- itsdangerous=0.24=py34_0
+- werkzeug=0.11.10=py34_0
 - alabaster=0.7.9=py34_0
 - astroid=1.4.9=py34_0
 - babel=2.3.4=py34_0
